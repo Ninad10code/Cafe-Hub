@@ -40,7 +40,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "adduser.php",
+                    url: "addUser.php",
                     data: "fname=" + fname + "&lname=" + lname + "&email=" + email + "&password=" + password,
                     success: function (html) {
                         if (html == 'true') {
@@ -132,7 +132,7 @@
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" id="ename" name="email" maxlength="25">
+                                <input type="email" class="form-control" id="email" name="email" maxlength="25">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Password</label>
