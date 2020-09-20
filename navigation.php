@@ -24,7 +24,7 @@
                         <a href="blog.php">Blog</a>
                     </li>
                     <li>
-                        <a href="register.php">Register</a>
+                        <a href="contact.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
